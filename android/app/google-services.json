@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1081803234776",
+    "firebase_url": "https://vistoriagerencial.firebaseio.com",
+    "project_id": "vistoriagerencial",
+    "storage_bucket": "vistoriagerencial.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1081803234776:android:4ba73c83baff1b16ea26ad",
+        "android_client_info": {
+          "package_name": "com.pioriam.visto_soft"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1081803234776-vvkkb6tnsult191htegrnrl7qa4aebnf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.pioriam.visto_soft",
+            "certificate_hash": "8174d9a6164a032d5ce64f2f343162881c6b950f"
+          }
+        },
+        {
+          "client_id": "1081803234776-qbosk6cpbdvegd495jnlemi11cl47m83.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBlr3prs2F8IVCeXG8fdwt7OsIjSripVWE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1081803234776-qbosk6cpbdvegd495jnlemi11cl47m83.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
