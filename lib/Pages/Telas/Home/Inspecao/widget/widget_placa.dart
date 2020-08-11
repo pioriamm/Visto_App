@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:visto_soft/Helps/Helpers.dart';
+import 'package:visto_soft/Pages/Telas/Home/Inspecao/TelaInspecao.dart';
 
-
-import '../TelaInspecao.dart';
 
 class widget_placa extends StatelessWidget {
 

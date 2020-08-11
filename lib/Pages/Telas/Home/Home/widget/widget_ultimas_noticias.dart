@@ -71,7 +71,8 @@ class widget_ultimas_noticias extends StatelessWidget {
                     ],
                   ),
               ),
-            ),),
+            ),
+          ),
         ),
       ),
     );

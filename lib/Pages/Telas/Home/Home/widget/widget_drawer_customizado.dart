@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:visto_soft/Helps/Helpers.dart';
-import 'package:visto_soft/Pages/Telas/App/Login/TelaLogin.dart';
+import 'package:visto_soft/Pages/Telas/Home/Home/widget/widget_alert.dart';
 import 'package:visto_soft/Pages/Telas/Menu/Configuracao/TelaConfig.dart';
 import 'package:visto_soft/Pages/Telas/Menu/Gps/TelaGps.dart';
 import 'package:visto_soft/Pages/Telas/Menu/Usuario/TelaUsuario.dart';
@@ -8,6 +8,9 @@ import 'package:visto_soft/Pages/Telas/Menu/Versao/TelaVersao.dart';
 
 
 class widget_drawer_customizado extends StatelessWidget {
+
+  Dialogo dio = Dialogo();
+
   @override
   Widget build(BuildContext context) {
     return Drawer(
@@ -80,7 +83,8 @@ class widget_drawer_customizado extends StatelessWidget {
             SizedBox( height: 150,),
             InkWell(
               onTap: () {
-                MudarPagina(context, LoginScream());
+                Navigator.pop(context);
+                dio.informacao(context, 'SAIR DO VISTOSOFT', "Tem Certeza que quer sair");
               },
               child: ListTile(
                 title: Text(
